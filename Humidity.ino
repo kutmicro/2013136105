@@ -1,5 +1,5 @@
 #include <dht11.h>
-#define DHT11PIN 7 //7번핀을 통해 온도와 습도정보를 전달합니다.
+#define DHT11PIN 12 //12번핀을 통해 온도와 습도정보를 전달합니다.
 dht11 DHT11;
 void setup() {
   Serial.begin(9600);//시리얼통신 속도를 9600으로 맞춥니다.
