@@ -1,5 +1,5 @@
 #include <LiquidCrystal.h>              // 텍스트 LCD 라이브러리 헤더파일
-LiquidCrystal lcd(1, 2, 3, 4, 5, 6, 7);  // 텍스트 LCD 핀 설정
+LiquidCrystal lcd(22, 23, 23, 24, 25, 26, 27);  // 텍스트 LCD 핀 설정
  
 void setup() {
   lcd.begin(16, 2); // LCD 크기 설정
