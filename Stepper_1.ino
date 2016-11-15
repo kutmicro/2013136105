@@ -1,8 +1,8 @@
 #include <Stepper.h>
 #include <SoftwareSerial.h>
 
-int TxPin = 16;
-int RxPin = 17;
+int TxPin = 2;
+int RxPin = 3;
 int Button = 14;
 int stepsmotor = 1024;
 SoftwareSerial BTSerial(TxPin, RxPin);
