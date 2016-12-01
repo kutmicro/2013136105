@@ -30,4 +30,4 @@ void loop() {
   lcd.clear(); // lcd 내용 지우기
 }
 
-
+ 
